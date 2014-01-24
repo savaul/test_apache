@@ -1,0 +1,570 @@
+Last login: Tue Jan 21 09:45:29 on ttys001
+No mail for mihaisava
+Mihais-Mac-Pro-2:~ mihaisava$ ssh pi@savaul.no-ip.biz
+pi@savaul.no-ip.biz's password: 
+Linux raspberrypi 3.10.25+ #622 PREEMPT Fri Jan 3 18:41:00 GMT 2014 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Tue Jan 21 16:14:52 2014 from 85.9.28.173
+pi@raspberrypi ~ $ ./vncstart 
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+
+New 'X' desktop is raspberrypi:0
+
+Starting applications specified in /home/pi/.vnc/xstartup
+Log file is /home/pi/.vnc/raspberrypi:0.log
+
+pi@raspberrypi ~ $ vncserver -kill :0
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+Killing Xtightvnc process ID 32067
+pi@raspberrypi ~ $ sudo reboot
+
+Broadcast message from root@raspberrypi (pts/2) (Tue Jan 21 16:49:29 2014):
+The system is going down for reboot NOW!
+pi@raspberrypi ~ $ Connection to savaul.no-ip.biz closed by remote host.
+Connection to savaul.no-ip.biz closed.
+Mihais-Mac-Pro-2:~ mihaisava$ ssh pi@savaul.no-ip.biz
+^Z
+[1]+  Stopped                 ssh pi@savaul.no-ip.biz
+Mihais-Mac-Pro-2:~ mihaisava$ ssh pi@savaul.no-ip.biz
+^Z
+[2]+  Stopped                 ssh pi@savaul.no-ip.biz
+Mihais-Mac-Pro-2:~ mihaisava$ ssh pi@savaul.no-ip.biz
+^Z
+[3]+  Stopped                 ssh pi@savaul.no-ip.biz
+Mihais-Mac-Pro-2:~ mihaisava$ ssh pi@savaul.no-ip.biz
+^Z
+[4]+  Stopped                 ssh pi@savaul.no-ip.biz
+Mihais-Mac-Pro-2:~ mihaisava$ ping 78.97.82.11
+PING 78.97.82.11 (78.97.82.11): 56 data bytes
+64 bytes from 78.97.82.11: icmp_seq=0 ttl=55 time=10.471 ms
+64 bytes from 78.97.82.11: icmp_seq=1 ttl=55 time=14.648 ms
+64 bytes from 78.97.82.11: icmp_seq=2 ttl=55 time=13.036 ms
+^Z
+[5]+  Stopped                 ping 78.97.82.11
+Mihais-Mac-Pro-2:~ mihaisava$ ping savaul.no-ip.biz
+PING savaul.no-ip.biz (78.97.82.11): 56 data bytes
+64 bytes from 78.97.82.11: icmp_seq=0 ttl=55 time=11.954 ms
+64 bytes from 78.97.82.11: icmp_seq=1 ttl=55 time=14.515 ms
+64 bytes from 78.97.82.11: icmp_seq=2 ttl=55 time=10.470 ms
+64 bytes from 78.97.82.11: icmp_seq=3 ttl=55 time=11.943 ms
+64 bytes from 78.97.82.11: icmp_seq=4 ttl=55 time=17.126 ms
+64 bytes from 78.97.82.11: icmp_seq=5 ttl=55 time=12.200 ms
+64 bytes from 78.97.82.11: icmp_seq=6 ttl=55 time=16.873 ms
+^Z
+[6]+  Stopped                 ping savaul.no-ip.biz
+Mihais-Mac-Pro-2:~ mihaisava$ ssh savaul.no-ip.biz
+ssh: connect to host savaul.no-ip.biz port 22: Operation timed out
+Mihais-Mac-Pro-2:~ mihaisava$ ssh savaul.no-ip.biz
+ssh: connect to host savaul.no-ip.biz port 22: Operation timed out
+Mihais-Mac-Pro-2:~ mihaisava$ ssh savaul.no-ip.biz
+ssh: connect to host savaul.no-ip.biz port 22: Operation timed out
+Mihais-Mac-Pro-2:~ mihaisava$ ssh savaul.no-ip.biz
+ssh: connect to host savaul.no-ip.biz port 22: Operation timed out
+Mihais-Mac-Pro-2:~ mihaisava$ ssh savaul.no-ip.biz
+ssh: connect to host savaul.no-ip.biz port 22: Operation timed out
+Mihais-Mac-Pro-2:~ mihaisava$ 
+Last login: Wed Jan 22 09:15:26 on console
+No mail for mihaisava
+Mihais-Mac-Pro-2:~ mihaisava$ telnet localhost 5558
+Trying ::1...
+telnet: connect to address ::1: Connection refused
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+Android Console: type 'help' for a list of commands
+OK
+network speed edge
+OK
+^[[A^[[C^[[C^[[C
+KO: unknown command, try 'help'
+power capacity 5
+OK
+power status not charging
+KO: Usage: "status unknown|charging|discharging|not-charging|full"
+power status not-charging
+OK
+geo fix 0.00 40.00 
+OK
+geo fix 23.00 45.00
+OK
+sms send 30155555 fucking shit
+OK
+Connection closed by foreign host.
+Mihais-Mac-Pro-2:~ mihaisava$ ssh pi@savaul.no-ip.biz
+ssh: connect to host savaul.no-ip.biz port 22: Operation timed out
+Mihais-Mac-Pro-2:~ mihaisava$ 
+Last login: Thu Jan 23 09:45:32 on console
+No mail for mihaisava
+Mihais-Mac-Pro-2:~ mihaisava$ ssh pi@savaul.no-ip.biz
+pi@savaul.no-ip.biz's password: 
+Linux raspberrypi 3.10.25+ #622 PREEMPT Fri Jan 3 18:41:00 GMT 2014 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jan 23 07:36:33 2014 from 78.97.82.11
+pi@raspberrypi ~ $ diskutil
+-bash: diskutil: command not found
+pi@raspberrypi ~ $ df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+rootfs           3627756 2864288    570784  84% /
+/dev/root        3627756 2864288    570784  84% /
+devtmpfs          215824       0    215824   0% /dev
+tmpfs              44820     256     44564   1% /run
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs              89620       0     89620   0% /run/shm
+/dev/mmcblk0p1     57288   19064     38224  34% /boot
+pi@raspberrypi ~ $ sudo dd if=/dev/root of=/dev/sda1 bs=4M
+
+916+0 records in
+916+0 records out
+3841982464 bytes (3.8 GB) copied, 338.043 s, 11.4 MB/s
+pi@raspberrypi ~ $ 
+pi@raspberrypi ~ $ sudo e2fsck /dev/sda1
+e2fsck 1.42.5 (29-Jul-2012)
+/dev/sda1: recovering journal
+Setting free inodes count to 149797 (was 149796)
+Setting free blocks count to 190867 (was 190898)
+/dev/sda1: clean, 83595/233392 files, 747117/937984 blocks
+pi@raspberrypi ~ $ sudo resize2fs /dev/sda1
+resize2fs 1.42.5 (29-Jul-2012)
+Please run 'e2fsck -f /dev/sda1' first.
+
+pi@raspberrypi ~ $ sudo mount /dev/sda1 /mnt
+pi@raspberrypi ~ $ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          3.5G  2.8G  558M  84% /
+/dev/root       3.5G  2.8G  558M  84% /
+devtmpfs        211M     0  211M   0% /dev
+tmpfs            44M  256K   44M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs            88M     0   88M   0% /run/shm
+/dev/mmcblk0p1   56M   19M   38M  34% /boot
+/dev/sda1       3.5G  2.8G  558M  84% /mnt
+pi@raspberrypi ~ $ sudo nano /mnt/etc/fstab
+pi@raspberrypi ~ $ sudo umount /dev/sda1
+pi@raspberrypi ~ $ sudo nano /boot/cmdline.txt
+pi@raspberrypi ~ $ sudo reboot
+
+Broadcast message from root@raspberrypi (pts/0) (Thu Jan 23 10:55:02 2014):
+The system is going down for reboot NOW!
+pi@raspberrypi ~ $ Connection to savaul.no-ip.biz closed by remote host.
+Connection to savaul.no-ip.biz closed.
+Mihais-Mac-Pro-2:~ mihaisava$ ssh pi@savaul.no-ip.biz
+pi@savaul.no-ip.biz's password: 
+Linux raspberrypi 3.10.25+ #622 PREEMPT Fri Jan 3 18:41:00 GMT 2014 armv6l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jan 23 10:37:33 2014 from 85.9.28.173
+pi@raspberrypi ~ $ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          3.5G  2.8G  558M  84% /
+/dev/root       3.5G  2.8G  558M  84% /
+devtmpfs        211M     0  211M   0% /dev
+tmpfs            44M  256K   44M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs            88M     0   88M   0% /run/shm
+/dev/mmcblk0p1   56M   19M   38M  34% /boot
+pi@raspberrypi ~ $ sudo mount /dev/sda1 /mnt
+pi@raspberrypi ~ $ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          3.5G  2.8G  558M  84% /
+/dev/root       3.5G  2.8G  558M  84% /
+devtmpfs        211M     0  211M   0% /dev
+tmpfs            44M  256K   44M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs            88M     0   88M   0% /run/shm
+/dev/mmcblk0p1   56M   19M   38M  34% /boot
+/dev/sda1       3.5G  2.8G  558M  84% /mnt
+pi@raspberrypi ~ $ sudo fdisk /dev/sda
+
+Command (m for help): p
+
+Disk /dev/sda: 4089 MB, 4089446400 bytes
+61 heads, 60 sectors/track, 2182 cylinders, total 7987200 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk identifier: 0x17149ac5
+
+   Device Boot      Start         End      Blocks   Id  System
+/dev/sda1             736     7987199     3993232    b  W95 FAT32
+
+Command (m for help): ^X^Z
+[1]+  Stopped                 sudo fdisk /dev/sda
+pi@raspberrypi ~ $ sudo resize2fs /dev/sda1
+resize2fs 1.42.5 (29-Jul-2012)
+Filesystem at /dev/sda1 is mounted on /; on-line resizing required
+old_desc_blocks = 1, new_desc_blocks = 1
+The filesystem on /dev/sda1 is now 998308 blocks long.
+
+pi@raspberrypi ~ $ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs          3.7G  2.8G  782M  79% /
+/dev/root       3.7G  2.8G  782M  79% /
+devtmpfs        211M     0  211M   0% /dev
+tmpfs            44M  256K   44M   1% /run
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs            88M     0   88M   0% /run/shm
+/dev/mmcblk0p1   56M   19M   38M  34% /boot
+/dev/sda1       3.7G  2.8G  782M  79% /mnt
+pi@raspberrypi ~ $ sudo apt-get remove wolfram-engine l
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package l
+pi@raspberrypi ~ $ sudo apt-get remove wolfram-engine 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages will be REMOVED:
+  wolfram-engine
+0 upgraded, 0 newly installed, 1 to remove and 1 not upgraded.
+After this operation, 429 MB disk space will be freed.
+Do you want to continue [Y/n]? y
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+(Reading database ... 73739 files and directories currently installed.)
+Removing wolfram-engine ...
+Processing triggers for hicolor-icon-theme ...
+Processing triggers for desktop-file-utils ...
+Processing triggers for shared-mime-info ...
+Processing triggers for man-db ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+pi@raspberrypi ~ $ sudo apt-get remove festival 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  esound-common libaudiofile1 libesd0 libestools2.1
+Use 'apt-get autoremove' to remove them.
+The following packages will be REMOVED:
+  festival festlex-cmu festlex-poslex festvox-kallpc16k
+0 upgraded, 0 newly installed, 4 to remove and 1 not upgraded.
+After this operation, 16.2 MB disk space will be freed.
+Do you want to continue [Y/n]? y
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+(Reading database ... 69024 files and directories currently installed.)
+Removing festvox-kallpc16k ...
+Removing festlex-poslex ...
+Removing festlex-cmu ...
+Removing festival ...
+Processing triggers for man-db ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Processing triggers for install-info ...
+Processing triggers for sgml-base ...
+pi@raspberrypi ~ $ sudo apt-get install phpmyadmin
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  esound-common libaudiofile1 libesd0 libestools2.1
+Use 'apt-get autoremove' to remove them.
+The following extra packages will be installed:
+  apache2-mpm-prefork dbconfig-common libapache2-mod-php5 libdbd-mysql-perl
+  libdbi-perl libmcrypt4 libmysqlclient16 libmysqlclient18 libnet-daemon-perl
+  libonig2 libplrpc-perl libqdbm14 mysql-client mysql-client-5.5 mysql-common
+  php5-cli php5-common php5-gd php5-mcrypt php5-mysql
+Suggested packages:
+  php-pear libmcrypt-dev mcrypt libterm-readkey-perl mysql-server
+The following packages will be REMOVED:
+  apache2-mpm-worker
+The following NEW packages will be installed:
+  apache2-mpm-prefork dbconfig-common libapache2-mod-php5 libdbd-mysql-perl
+  libdbi-perl libmcrypt4 libmysqlclient16 libmysqlclient18 libnet-daemon-perl
+  libonig2 libplrpc-perl libqdbm14 mysql-client mysql-client-5.5 mysql-common
+  php5-cli php5-common php5-gd php5-mcrypt php5-mysql phpmyadmin
+0 upgraded, 21 newly installed, 1 to remove and 1 not upgraded.
+Need to get 17.0 MB of archives.
+After this operation, 78.3 MB of additional disk space will be used.
+Do you want to continue [Y/n]? y
+Get:1 http://mirrordirector.raspbian.org/raspbian/ wheezy/main apache2-mpm-prefork armhf 2.2.22-13 [2344 B]
+Get:2 http://mirrordirector.raspbian.org/raspbian/ wheezy/main mysql-common all 5.5.33+dfsg-0+wheezy1 [80.3 kB]
+Get:3 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libmysqlclient18 armhf 5.5.33+dfsg-0+wheezy1 [622 kB]
+Get:4 http://mirrordirector.raspbian.org/raspbian/ wheezy/main php5-common armhf 5.4.4-14+deb7u7 [587 kB]
+Get:5 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libonig2 armhf 5.9.1-1 [130 kB]
+Get:6 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libqdbm14 armhf 1.8.78-2 [119 kB]
+Get:7 http://mirrordirector.raspbian.org/raspbian/ wheezy/main php5-cli armhf 5.4.4-14+deb7u7 [2432 kB]
+Get:8 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libapache2-mod-php5 armhf 5.4.4-14+deb7u7 [2444 kB]
+Get:9 http://mirrordirector.raspbian.org/raspbian/ wheezy/main php5-gd armhf 5.4.4-14+deb7u7 [31.2 kB]
+Get:10 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libmcrypt4 armhf 2.5.8-3.1 [77.0 kB]
+Get:11 http://mirrordirector.raspbian.org/raspbian/ wheezy/main php5-mcrypt armhf 5.4.4-14+deb7u7 [14.0 kB]
+Get:12 http://mirrordirector.raspbian.org/raspbian/ wheezy/main php5-mysql armhf 5.4.4-14+deb7u7 [68.6 kB]
+Get:13 http://mirrordirector.raspbian.org/raspbian/ wheezy/main dbconfig-common all 1.8.47+nmu1 [487 kB]
+Get:14 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libmysqlclient16 armhf 5.1.62-1 [1828 kB]
+Get:15 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libnet-daemon-perl all 0.48-1 [46.2 kB]
+Get:16 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libplrpc-perl all 0.2020-2 [36.0 kB]
+Get:17 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libdbi-perl armhf 1.622-1 [895 kB]
+Get:18 http://mirrordirector.raspbian.org/raspbian/ wheezy/main libdbd-mysql-perl armhf 4.021-1 [123 kB]
+Get:19 http://mirrordirector.raspbian.org/raspbian/ wheezy/main mysql-client-5.5 armhf 5.5.33+dfsg-0+wheezy1 [1455 kB]
+Get:20 http://mirrordirector.raspbian.org/raspbian/ wheezy/main mysql-client all 5.5.33+dfsg-0+wheezy1 [78.4 kB]
+Get:21 http://mirrordirector.raspbian.org/raspbian/ wheezy/main phpmyadmin all 4:3.4.11.1-2 [5483 kB]
+Fetched 17.0 MB in 19s (881 kB/s)                                              
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Preconfiguring packages ...
+/usr/bin/locale: Cannot set LC_CTYPE to default locale: No such file or directory
+/usr/bin/locale: Cannot set LC_ALL to default locale: No such file or directory
+dpkg: apache2-mpm-worker: dependency problems, but removing anyway as you requested:
+ apache2 depends on apache2-mpm-worker (= 2.2.22-13) | apache2-mpm-prefork (= 2.2.22-13) | apache2-mpm-event (= 2.2.22-13) | apache2-mpm-itk (= 2.2.22-13); however:
+  Package apache2-mpm-worker is to be removed.
+  Package apache2-mpm-prefork is not installed.
+  Package apache2-mpm-event is not installed.
+  Package apache2-mpm-itk is not installed.
+
+(Reading database ... 68838 files and directories currently installed.)
+Removing apache2-mpm-worker ...
+[ ok ] Stopping web server: apache2 ... waiting .
+Selecting previously unselected package apache2-mpm-prefork.
+(Reading database ... 68835 files and directories currently installed.)
+Unpacking apache2-mpm-prefork (from .../apache2-mpm-prefork_2.2.22-13_armhf.deb) ...
+Setting up apache2-mpm-prefork (2.2.22-13) ...
+ERROR: /etc/apache2/mods-enabled/cgid.load is not a symbolic link, not deleting
+ERROR: /etc/apache2/mods-enabled/cgid.conf is not a symbolic link, not deleting
+[ ok ] Starting web server: apache2.
+Selecting previously unselected package mysql-common.
+(Reading database ... 68840 files and directories currently installed.)
+Unpacking mysql-common (from .../mysql-common_5.5.33+dfsg-0+wheezy1_all.deb) ...
+Selecting previously unselected package libmysqlclient18:armhf.
+Unpacking libmysqlclient18:armhf (from .../libmysqlclient18_5.5.33+dfsg-0+wheezy1_armhf.deb) ...
+Selecting previously unselected package php5-common.
+Unpacking php5-common (from .../php5-common_5.4.4-14+deb7u7_armhf.deb) ...
+Selecting previously unselected package libonig2.
+Unpacking libonig2 (from .../libonig2_5.9.1-1_armhf.deb) ...
+Selecting previously unselected package libqdbm14.
+Unpacking libqdbm14 (from .../libqdbm14_1.8.78-2_armhf.deb) ...
+Selecting previously unselected package php5-cli.
+Unpacking php5-cli (from .../php5-cli_5.4.4-14+deb7u7_armhf.deb) ...
+Selecting previously unselected package libapache2-mod-php5.
+Unpacking libapache2-mod-php5 (from .../libapache2-mod-php5_5.4.4-14+deb7u7_armhf.deb) ...
+Selecting previously unselected package php5-gd.
+Unpacking php5-gd (from .../php5-gd_5.4.4-14+deb7u7_armhf.deb) ...
+Selecting previously unselected package libmcrypt4.
+Unpacking libmcrypt4 (from .../libmcrypt4_2.5.8-3.1_armhf.deb) ...
+Selecting previously unselected package php5-mcrypt.
+Unpacking php5-mcrypt (from .../php5-mcrypt_5.4.4-14+deb7u7_armhf.deb) ...
+Selecting previously unselected package php5-mysql.
+Unpacking php5-mysql (from .../php5-mysql_5.4.4-14+deb7u7_armhf.deb) ...
+Selecting previously unselected package dbconfig-common.
+Unpacking dbconfig-common (from .../dbconfig-common_1.8.47+nmu1_all.deb) ...
+Selecting previously unselected package libmysqlclient16.
+Unpacking libmysqlclient16 (from .../libmysqlclient16_5.1.62-1_armhf.deb) ...
+Selecting previously unselected package libnet-daemon-perl.
+Unpacking libnet-daemon-perl (from .../libnet-daemon-perl_0.48-1_all.deb) ...
+Selecting previously unselected package libplrpc-perl.
+Unpacking libplrpc-perl (from .../libplrpc-perl_0.2020-2_all.deb) ...
+Selecting previously unselected package libdbi-perl.
+Unpacking libdbi-perl (from .../libdbi-perl_1.622-1_armhf.deb) ...
+Selecting previously unselected package libdbd-mysql-perl.
+Unpacking libdbd-mysql-perl (from .../libdbd-mysql-perl_4.021-1_armhf.deb) ...
+Selecting previously unselected package mysql-client-5.5.
+Unpacking mysql-client-5.5 (from .../mysql-client-5.5_5.5.33+dfsg-0+wheezy1_armhf.deb) ...
+Selecting previously unselected package mysql-client.
+Unpacking mysql-client (from .../mysql-client_5.5.33+dfsg-0+wheezy1_all.deb) ...
+Selecting previously unselected package phpmyadmin.
+Unpacking phpmyadmin (from .../phpmyadmin_4%3a3.4.11.1-2_all.deb) ...
+Processing triggers for man-db ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Processing triggers for hicolor-icon-theme ...
+Setting up mysql-common (5.5.33+dfsg-0+wheezy1) ...
+Setting up libmysqlclient18:armhf (5.5.33+dfsg-0+wheezy1) ...
+Setting up php5-common (5.4.4-14+deb7u7) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+
+Creating config file /etc/php5/mods-available/pdo.ini with new version
+Setting up libonig2 (5.9.1-1) ...
+Setting up libqdbm14 (1.8.78-2) ...
+Setting up php5-cli (5.4.4-14+deb7u7) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+
+Creating config file /etc/php5/cli/php.ini with new version
+update-alternatives: using /usr/bin/php5 to provide /usr/bin/php (php) in auto mode
+Setting up libapache2-mod-php5 (5.4.4-14+deb7u7) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+
+Creating config file /etc/php5/apache2/php.ini with new version
+[ ok ] Restarting web server: apache2 ... waiting .
+Setting up php5-gd (5.4.4-14+deb7u7) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+
+Creating config file /etc/php5/mods-available/gd.ini with new version
+Setting up libmcrypt4 (2.5.8-3.1) ...
+Setting up php5-mcrypt (5.4.4-14+deb7u7) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+
+Creating config file /etc/php5/mods-available/mcrypt.ini with new version
+Setting up php5-mysql (5.4.4-14+deb7u7) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+
+Creating config file /etc/php5/mods-available/mysql.ini with new version
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+
+Creating config file /etc/php5/mods-available/mysqli.ini with new version
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+
+Creating config file /etc/php5/mods-available/pdo_mysql.ini with new version
+Setting up dbconfig-common (1.8.47+nmu1) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+
+Creating config file /etc/dbconfig-common/config with new version
+Setting up libmysqlclient16 (5.1.62-1) ...
+Setting up libnet-daemon-perl (0.48-1) ...
+Setting up libplrpc-perl (0.2020-2) ...
+Setting up libdbi-perl (1.622-1) ...
+Setting up libdbd-mysql-perl (4.021-1) ...
+Setting up mysql-client-5.5 (5.5.33+dfsg-0+wheezy1) ...
+Setting up mysql-client (5.5.33+dfsg-0+wheezy1) ...
+Processing triggers for libapache2-mod-php5 ...
+[ ok ] Reloading web server config: apache2.
+Setting up phpmyadmin (4:3.4.11.1-2) ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+/usr/bin/locale: Cannot set LC_CTYPE to default locale: No such file or directory
+/usr/bin/locale: Cannot set LC_ALL to default locale: No such file or directory
+dbconfig-common: writing config to /etc/dbconfig-common/phpmyadmin.conf
+
+Creating config file /etc/dbconfig-common/phpmyadmin.conf with new version
+
+Creating config file /etc/phpmyadmin/config-db.php with new version
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+error encountered creating user:
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+dbconfig-common: phpmyadmin configure: aborted.
+dbconfig-common: flushing administrative password
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+error encountered creating database:
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+dbconfig-common: phpmyadmin configure: aborted.
+dbconfig-common: flushing administrative password
+populating database via sql...  error encountered populating database:
+mysql said: ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+dbconfig-common: phpmyadmin configure: aborted.
+dbconfig-common: flushing administrative password
+done.
+dbconfig-common: flushing administrative password
+[ ok ] Reloading web server config: apache2.
+pi@raspberrypi ~ $ sudo apt-get remove  phpmyadmin
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  dbconfig-common esound-common libapache2-mod-php5 libaudiofile1
+  libdbd-mysql-perl libdbi-perl libesd0 libestools2.1 libmcrypt4
+  libmysqlclient16 libmysqlclient18 libnet-daemon-perl libonig2 libplrpc-perl
+  libqdbm14 mysql-client mysql-client-5.5 mysql-common php5-cli php5-common
+  php5-gd php5-mcrypt php5-mysql
+Use 'apt-get autoremove' to remove them.
+The following packages will be REMOVED:
+  phpmyadmin
+0 upgraded, 0 newly installed, 1 to remove and 1 not upgraded.
+After this operation, 15.0 MB disk space will be freed.
+Do you want to continue [Y/n]? y
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_GB.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the standard locale ("C").
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+(Reading database ... 70377 files and directories currently installed.)
+Removing phpmyadmin ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+/usr/bin/locale: Cannot set LC_CTYPE to default locale: No such file or directory
+/usr/bin/locale: Cannot set LC_ALL to default locale: No such file or directory
+dbconfig-common: dumping mysql database phpmyadmin to /var/tmp/phpmyadmin.phpmyadmin.2014-01-23-11.20.mysql.JOZX3Y.
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+error encountered dumping database:
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+dbconfig-common: phpmyadmin remove: aborted.
+dbconfig-common: flushing administrative password
+dbconfig-common: dropping mysql database phpmyadmin.
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+error encountered dropping database:
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+dbconfig-common: phpmyadmin remove: aborted.
+dbconfig-common: flushing administrative password
+dbconfig-common: revoking privileges for user phpmyadmin on phpmyadmin.
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+Automatic configuration using dbconfig-common failed!
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+[ ok ] Reloading web server config: apache2.
+Processing triggers for man-db ...
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+Processing triggers for hicolor-icon-theme ...
+
